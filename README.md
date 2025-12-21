@@ -1,16 +1,36 @@
-# React + Vite
+# Essência Renovada - Mesa Radiônica PWA
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Um aplicativo moderno e acolhedor para solicitação de Mesas Radiônicas, desenvolvido para funcionar como um Aplicativo (PWA) no Android e Web.
 
-Currently, two official plugins are available:
+## Funcionalidades
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Formulário de Solicitação**: Coleta dados pessoais e foco da mesa.
+- **Painel de Pagamento**: Alterna entre Pix (Brasil) e Transferência Bancária (Internacional).
+- **Envio Automático**: Gera um e-mail pré-preenchido para envio do comprovante.
+- **Instalável**: Pode ser instalado na tela inicial do celular.
 
-## React Compiler
+## Como Rodar Localmente
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+1. Clone o repositório
+2. Instale as dependências:
+   ```bash
+   npm install
+   ```
+3. Rode o servidor de desenvolvimento:
+   ```bash
+   npm run dev
+   ```
 
-## Expanding the ESLint configuration
+## Como Deployar
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Este projeto é construído com **Vite + React**. A maneira mais fácil de publicar é usando **Vercel** ou **Netlify**.
+
+### Vercel (Recomendado)
+
+1. Crie uma conta no [Vercel](https://vercel.com).
+2. Clique em **"Add New Project"**.
+3. Importe este repositório do Git.
+4. O Vercel detectará automaticamente que é um projeto Vite.
+5. Clique em **Deploy**.
+
+O app estará online em segundos!
