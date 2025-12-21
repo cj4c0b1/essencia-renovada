@@ -1,6 +1,7 @@
 
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
+import rudaiaPhoto from '../assets/rudaia-profile.jpg';
 
 const Home = () => {
   const navigate = useNavigate();
@@ -89,8 +90,7 @@ const Home = () => {
           <h2 className="section-title fade-in-scroll">Conheça Rudaia Correia</h2>
           <div className="about-box fade-in-scroll">
             <div className="about-photo" aria-label="Foto de perfil">
-              {/* Using a placeholder if no image file provided, ideally we'd import one */}
-              <div style={{width: '98px', height: '98px', borderRadius: '50%', background: '#ccc'}}></div>
+              <img src={rudaiaPhoto} alt="Foto Rudaia Correia" style={{width: '98px', height: '98px', borderRadius: '50%', objectFit: 'cover'}} />
             </div>
             <div className="about-content">
               <div className="about-name">Rudáia Correia (Ru Correia)</div>
