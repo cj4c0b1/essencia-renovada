@@ -21,6 +21,8 @@ ${formData.questions}
 
 ---------------------------
 (Por favor, anexe o comprovante de pagamento a este e-mail antes de enviar)
+
+*Estou ciente que receberei o áudio da mesa em até 5 dias após o envio deste comprovante.*
 `
     );
     return `mailto:rudaiacorreia@gmail.com?subject=${subject}&body=${body}`;
@@ -59,6 +61,9 @@ ${formData.questions}
         </p>
         <p style={{fontSize: '0.9rem', color: '#E6C068', fontWeight: 'bold', background: '#FFF8E1', padding: '10px', borderRadius: '8px'}}>
           ⚠️ Lembre-se de anexar o comprovante de pagamento.
+        </p>
+        <p style={{fontSize: '0.9rem', color: '#718096', marginTop: '12px', fontStyle: 'italic'}}>
+          ℹ️ Após a confirmação, o áudio da sua mesa será enviado em até 5 dias.
         </p>
       </div>
 
