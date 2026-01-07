@@ -51,7 +51,7 @@ const Home = () => {
             <a onClick={() => scrollToSection('depoimentos')} style={{ cursor: 'pointer' }}>Depoimentos</a>
             <a onClick={() => scrollToSection('contato')} style={{ cursor: 'pointer' }}>Contato</a>
           </nav>
-          <button className="nav-action" onClick={handleRequestClick}>Agendar Consulta</button>
+          <button className="nav-action" onClick={handleRequestClick}>Solicitar Mesa</button>
           <button 
             className="menu-toggle" 
             aria-label="Abrir Menu" 
@@ -68,7 +68,7 @@ const Home = () => {
             <h1 className="hero-title">Reconecte-se com Sua Essência</h1>
             <div className="hero-subtitle">Terapia Integrativa com Mesa Radiônica<br/>Equilíbrio, Cura e Transformação</div>
             <p className="hero-intro">Acolhimento e solução para dores emocionais, físicas e espirituais. Um espaço moderno e humanizado para seu autoconhecimento, bem-estar e reconexão interna.</p>
-            <button className="cta-main" onClick={handleRequestClick}>Agende Sua Consulta</button>
+            <button className="cta-main" onClick={handleRequestClick}>Solicite Sua Mesa</button>
           </div>
           <div className="hero-bg">
             <div className="mandala-bg">
@@ -147,7 +147,7 @@ const Home = () => {
               <div className="serv-card-title">Mesa Radiônica</div>
               <div className="serv-destino">Exclusivo para você</div>
               <div className="serv-desc">Atendimento individual e personalizado, utilizando as melhores ferramentas terapêuticas e espirituais para promover equilíbrio, cura e alegria em sua vida.</div>
-              <button className="serv-btn" onClick={handleRequestClick}>Agendar Consulta</button>
+              <button className="serv-btn" onClick={handleRequestClick}>Solicitar Mesa</button>
             </div>
           </div>
         </section>
@@ -175,7 +175,7 @@ const Home = () => {
 
         <section id="contato">
           <h2 className="section-title fade-in-scroll">Pronta para Transformar Sua Vida?</h2>
-          <div className="section-sub fade-in-scroll">Agende sua consulta e inicie sua jornada de cura e autoconhecimento</div>
+          <div className="section-sub fade-in-scroll">Solicite sua Mesa e inicie sua jornada de cura e autoconhecimento</div>
           
           <div className="contato-form-box fade-in-scroll" style={{textAlign: 'center'}}>
              <p style={{marginBottom: '20px'}}>
